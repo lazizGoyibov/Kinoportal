@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(251, 251, 251);
+    box-shadow: rgba(22, 22, 223, 0.1) 0px 1px 0px, rgba(21, 21, 229, 0.1) 0px 8px 24px, rgba(27, 27, 216, 0.1) 0px 16px 48px;
+}
+
+.header-links {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+
+}
+
+.header-links:last-child {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.header-input {
+    padding: 5px 15px;
+    outline: none;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 10px;
+
+}
+
+.header-input:focus {
+    border: 2px solid rgb(75, 75, 230);
+
+}
+
+.icon-head {
+    margin-right: 8px;
+}
+
+.head-appbar {
+     background-color: rgb(235, 144, 58);
+}

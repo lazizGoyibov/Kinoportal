@@ -1,0 +1,73 @@
+.login {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+}
+
+   .log-btns {
+        display: flex;
+        
+
+        .log-submit {
+            margin-right: 8px;
+        }
+
+      
+   }
+
+   .login-inner {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      
+       padding: 16px;
+        width: 500px;
+   }
+
+   .link-toRegister {
+    display: inline-block;   
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 16px;
+   }
+
+
+   .log-titles {
+       margin-bottom: 16px;
+       
+   }
+
+   .title-log {
+       font-family: sans-serif;
+       font-weight: 800;
+       font-size: 50px;
+       font-style: normal;
+       color: rgb(22, 22, 22);
+   }
+    
+    .log-password {
+        
+        width: 100%;
+    }
+
+    .log-name {
+        width: 100%;
+        
+    }
+    
+    .login-name-wrap {
+        margin-bottom: 16px;
+    }
+
+    .login-email-wrap {
+        margin-bottom: 16px;
+    }
+
+    .login-password-wrap {
+        margin-bottom: 16px;
+    }
+
+    

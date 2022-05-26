@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.Movies {
+    padding-top: 100px;
+    padding-bottom: 24px;
+
+
+}
+
+
+.pagination {
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+.searchPage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+
+.tvshow {
+   
+    padding-top: 100px;
+    padding-bottom: 24px;
+}
+
+.singleMovie {
+    padding-top: 100px;
+    
+}
+
+.singleShow {
+    padding-top: 100px;
+    
+
+
+    .show-inner {
+        display: flex;
+    }
+
+    
+}
+
+.show-title {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    width: 450px;
+}
+
+.show-subtitle {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.show-overview {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 500px;
+    line-height: 25px;
+}
+
+.show-type {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 16px;
+    border-right: 2px solid black;
+}
+
+.show-country {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-right: 2px solid black;
+}
+
+.show-language {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 16px;
+}
+
+.show-info {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.showBox-right {
+    margin-left: 24px;
+}
+
+.show-img {
+    object-fit: cover;
+    
+    height: 500px;
+    width: 400px;
+}
+
+.movie-inner {
+    display: flex;
+
+    .movieBox-right {
+        margin-left: 24px;
+    }
+}
